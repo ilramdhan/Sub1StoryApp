@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".story.DetailActivity">
+
+    <ImageView
+        android:id="@+id/imgStory"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        tools:src="@color/gray"
+        android:transitionName="thumb"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/imagestory" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        tools:text="Story Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textSize="24sp"
+        android:transitionName="title"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvDesc"
+        tools:text="Deskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:transitionName="description"
+        android:layout_marginHorizontal="16dp"/>
+
+</LinearLayout>

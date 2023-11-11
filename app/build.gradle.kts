@@ -2,8 +2,8 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id ("kotlin-kapt")
-    id ("com.google.dagger.hilt.android") version "2.41" apply false
-    id ("androidx.navigation.safeargs") version "2.7.4" apply false
+    id ("com.google.dagger.hilt.android")
+    id ("androidx.navigation.safeargs")
     id ("kotlin-parcelize")
 }
 
@@ -12,6 +12,7 @@ android {
     compileSdk = 34
 
     defaultConfig {
+        buildConfigField("String", "BASE_URL", "\"https://story-api.dicoding.dev/v1/\"")
         applicationId = "com.dicoding.sub1storyapp"
         minSdk = 26
         targetSdk = 33
@@ -40,6 +41,7 @@ android {
 
     buildFeatures {
         viewBinding = true
+        buildConfig = true
     }
 }
 
@@ -58,7 +60,7 @@ dependencies {
 
     implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1")
 
-    val hiltVer = "2.43.2"
+    val hiltVer = "2.48.1"
     implementation ("com.google.dagger:hilt-android:$hiltVer")
     kapt ("com.google.dagger:hilt-compiler:$hiltVer")
     kapt ("com.google.dagger:dagger-compiler:$hiltVer")

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:layout_marginEnd="16dp"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="16dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/gray"
+                android:gravity="center" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/gray"
+                android:maxLines="3"
+                android:ellipsize="end"
+                tools:text="@tools:sample/lorem/random" />
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="16dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/gray"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="@color/gray"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

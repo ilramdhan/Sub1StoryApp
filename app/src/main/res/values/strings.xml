@@ -1,3 +1,47 @@
 <resources>
     <string name="app_name">Sub1StoryApp</string>
+    <string name="pass_error">Password Harus Lebih dari 8 Huruf!</string>
+    <string name="pass_empty">Harap Masukkan Kata Sandi Anda!</string>
+    <string name="email_empty">Harap Masukkan Email! Anda!</string>
+    <string name="email_error">Mohon Maaf Email Anda Tidak Benar!</string>
+    <string name="name_empty">Mohon Masukkan Nama Anda!</string>
+    <string name="regist_succsess">Pendaftaran Berhasil</string>
+    <string name="statement_error">Kesalahan Tidak Diketahui</string>
+    <string name="dialog_error">Maaf Ada Kesalahan</string>
+    <string name="iconapp">IconApp</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="sudah_punya_akun">Sudah punya akun?</string>
+    <string name="login_disini">Login disini</string>
+    <string name="login">Login</string>
+    <string name="belum_punya_akun">Belum punya akun?</string>
+    <string name="daftar_disini">Daftar disini</string>
+    <string name="userpass_error">Email dan Password Salah</string>
+    <string name="welcome_message">Selamat Datang, %1$s!</string>
+    <string name="imagestory">Image Story</string>
+    <string name="title_story">Detail Story</string>
+    <string name="setting">Setting</string>
+    <string name="title_activity_add_story">AddStoryActivity</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="upload">Upload</string>
+    <string name="image_story">Image Story</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="desc_empty">Deskripsi Tidak Boleh Kosong</string>
+    <string name="not_granted">Permission not granted</string>
+    <string name="add_story">Add Story</string>
+    <string name="failed_capture">Gagal Mengambil Gambar</string>
+    <string name="img_chose">Pilih Gambar</string>
+    <string name="img_upload">Upload Sukses</string>
+    <string name="img_info">Upload Info</string>
+    <string name="title_message">Information</string>
+    <string name="pick_image">Pick an image</string>
+    <string name="logout">Logout</string>
+    <string name="profile">Profile User</string>
+    <string name="logout_confirm">Apakah anda yakin untuk keluar?</string>
+    <string name="logout_yes">Logout</string>
+    <string name="logout_no">Cancel</string>
+
 </resources>
